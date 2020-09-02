@@ -11,10 +11,19 @@ h1
 	max-width: 53vw
 	br 
 		display: none
+h3 
+	font-size: 1.875vw
+	font-weight: 700
 a,
 a:hover
 	text-decoration: none
+	
 .button
+	font-size: 1.615vw 
+	font-weight: 700
+	text-transform: uppercase
+	padding: 0.5vw 1.2vw
+	font-family: 'Quicksand', sans-serif
 	a 
 		color: $purple 
 		font-size: 1.615vw 
@@ -25,6 +34,7 @@ a:hover
 		font-size: 1.614vw
 		padding: 0.5vw 1.2vw
 		border-radius: 5vw
+		font-family: 'Quicksand', sans-serif
 .button.button--transparent a
 	border: 3px solid $purple
 	background: transparent
@@ -142,7 +152,318 @@ a:hover
 		left: 9vw
 	img 
 		width: 5.885vw
+//start item-section
+.item-section 
+	padding-top: 5.729vw
+	background: url('../img/bg2.jpg')
+	background-size: cover 
+	background-position: center
+	color: #fff
+	.col-lg-4
+		display: flex 
+		justify-content: center
+		margin-bottom: 5.781vw
+.item 
+
+	background: rgba($purple, 0.66)
+	text-align: center
+	padding: 1.719vw
+	border-radius: 2.5vw
+	max-width: 20.365vw
+	height: 100%
+	display: flex 
+	flex-direction: column 
+	justify-content: space-between
+	align-items: center
+	img 
+		max-width: 9.115vw
+		margin-bottom: 1.406vw
+	h3 
+		margin: 0 auto
+		max-width: 15vw
+
+	p 
+		font-size: 1.042vw
+		margin-top: 1.042vw
+
+//end item section
+
+//start table section
+.table-section 
+	background: rgba($purple, 0.28)
+	padding-top: 6.250vw
+	padding-bottom: 8vw
+	display: flex
+.titles__column 
+	width: 30.469vw
+	padding-left: 3.854vw
+	padding-right: 3.854vw
+	padding-top: 13.167vw
+	text-align: right
+	color: #fff
+
+.table-title
+	color: #fff
+	font-size: 2.917vw
+	font-weight: 700
+	padding-bottom: 5.208vw
+
+.table 
+	width: 61.302vw
+	background: #fff
+	box-shadow: 0 0.156vw 1.510vw rgba(#000, .16)
+	border-radius: 2.24vw
+	padding: 3.490vw 0
+	color: $purple
+.table__row
+	display: flex
+	justify-content: space-between
+.table__col 
+	width: 33.3%
+	padding: 0 2.083vw
+.tab 
+	font-size: 2.344vw
+	font-weight: 700
+	padding-bottom: 2.083vw
+.tab-top
+	padding-left: 3.490vw
+	padding-right: 3.490vw
+.table-text 
+	font-size: 1.354vw
+.table-price-col 
+	display: flex
+	padding-top: 2.604vw
+	padding-bottom: 2.604vw
+	align-items: center
+.price 
+	font-size: 2.031vw
+	font-weight: 700
+	padding-right: 0.677vw
+.price-text 
+	font-size: 0.990vw
+	font-family: 'Quicksand', sans-serif
+.table-button .button
+	font-size: 1.250vw
+	background: $purple 
+	color: #fff
+	display: flex 
+	justify-content: center 
+	align-items: center
+	border-radius: 1.198vw
+	padding: 0.625vw 1.146vw
+	cursor: pointer
+.table-button
+	margin-bottom: 5.729vw
+.table-left__header
+	font-size: 1.823vw
+	.type
+		padding-bottom: 11.5vw
+.left-price
+	padding-bottom: 9vw
+.table-col-tick
+	border-right: 2px solid $purple
+	height: 4.5vw
+	font-family: 'Quicksand', sans-serif
+	display: flex 
+	justify-content: center 
+	align-items: center
+	text-align: center
+	img 
+		width: 2.188vw
+	.tick-text
+		font-size: 1.771vw
+		font-weight: 700
 		
+	span 
+		background: rgba($purple, 0.07)
+		width: 100% 
+		height: 60%
+	.tick-p 
+		font-size: 1.250vw
+.table-left-title
+	font-size: 1.302vw
+	height: 4.5vw
+	display: flex 
+	align-items: center
+	justify-content: flex-end
+	font-family: 'Quicksand', sans-serif
+	font-weight: 500
+	line-height: 1.615vw
+.table__row-text
+	padding-top: 67px
+.table-left-title--last
+	margin-top: 3vw
+.table-footer-text
+	width: 61.302vw
+	padding-top: 1.927vw
+	padding-bottom: 3.646vw
+.table-col-tick:last-child 
+	border-right: none
+.table-footer-row
+	color: $purple
+	.table__row
+		.table__col
+			border-right: 2px solid #fff
+		.table__col:last-child 
+			border-right: none
+	.table-price-col
+		flex-direction: column
+.table-section--mobile 
+	display: none
+
+//end table section
+
+//start slider
+.slider-section 
+	padding: 8.333vw 0
+	width: 74.479vw
+	margin: 0 auto
+	
+.slider
+	color: $purple 
+	p 
+		font-size: 1.354vw
+		max-width: 61.510vw
+		padding: 2vw 0
+		line-height: 1.2
+		min-height: 17vw
+		font-family: 'Quicksand', sans-serif
+	img 
+		margin-bottom: 1.6vw
+		height: 12vw
+
+	
+.slider-content
+	padding-left: 8.854vw
+	
+.slider-logo1
+	//max-width: 26.250vw
+.line 
+	background: rgba($purple, .28)
+	height: 3px 
+	width: 11.042vw
+	display: block
+	font-size: 0
+.slider-author-wrapper
+	padding-top: 2vw
+	min-height: 10vw
+.slider-text
+	font-size: 1.719vw
+.slider-name 
+	font-size: 1.302vw
+.slick-dots
+	position: absolute
+	top: 43%
+	left: 0
+	list-style: none
+	font-size: 0 
+	margin-bottom: 0
+	li 
+		margin-bottom: 1.302vw
+		border-radius: 50%
+		outline: none
+		cursor: pointer
+		button
+			width: 1.979vw
+			height: 1.979vw
+			border: 2px solid $purple
+			border-radius: 50%
+			background: transparent
+			outline: none
+			cursor: pointer
+	li:last-child 
+		margin-bottom: 0
+	li.slick-active 
+		background: $purple
+
+.prev,
+.next	
+	display: none
+
+
+//end slider
+
+.logos-section
+	.vine__title 
+		color: $purple
+	.container-fluid 
+		max-width: 90vw
+	a
+		margin-bottom: 2.5vw
+		display: flex 
+		justify-content: center 
+		align-items: center
+	img 
+		width: 80%
+.footer 
+	background: $purple
+	color: #fff	
+	padding-top: 7.813vw
+	padding-bottom: 5.417vw	
+form 
+	max-width: 68vw
+	margin: 0 auto
+	display: block
+.footer__title
+	text-align: center
+	font-size: 3.281vw 
+	text-transform: uppercase
+	font-family: 'Quicksand', sans-serif
+.footer__sub-title
+	text-align: center	
+	font-size: 1.563vw
+	max-width: 52.7vw
+	margin: 0 auto
+	margin-bottom: 7.552vw
+.form-row 
+	width: 100%
+	justify-content: space-between
+	display: flex
+	align-items: center
+	margin-bottom: 3vw
+	button 
+		border: none 
+		background: #fff 
+		color: $purple
+		border-radius: 5vw
+		font-family: 'Quicksand', sans-serif
+		outline: none
+		cursor: pointer
+
+	span 
+		width: 20vw
+		font-family: 'Quicksand', sans-serif
+		font-size: 1.824vw
+		text-align: right
+
+	input 
+		width: 46vw
+		height: 3.2vw
+		background: transparent 
+		border: 0.2vw solid #fff
+		border-radius: 1.094vw
+		outline: none
+		color: #fff 
+		padding: 0 1vw
+.form-row-wrapper
+	width: 46vw
+	display: flex 
+	justify-content: flex-start
+	align-items: center
+	input 
+		width: 1.5vw 
+		height: 1.5vw
+		margin-right: 0.9vw
+		background: #fff
+		border: none
+		border-radius: none
+		cursor: pointer
+	label 
+		margin-bottom: 0
+		font-size: 1.3vw
+		font-family: 'Quicksand', sans-serif
+.form-row:last-child 
+	margin-bottom: 0
 
 @import "media"
 
