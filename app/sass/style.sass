@@ -1,0 +1,150 @@
+@import "vars"
+@import "fonts"
+
+body 
+	font-family: $museo
+	font-weight: 500
+h1 
+	font-weight: 500
+	font-size: 5.990vw
+	line-height: 6.094vw
+	max-width: 53vw
+	br 
+		display: none
+a,
+a:hover
+	text-decoration: none
+.button
+	a 
+		color: $purple 
+		font-size: 1.615vw 
+		font-weight: 700 
+		text-transform: uppercase 
+		font-weight: 700 
+		background: #fff
+		font-size: 1.614vw
+		padding: 0.5vw 1.2vw
+		border-radius: 5vw
+.button.button--transparent a
+	border: 3px solid $purple
+	background: transparent
+
+
+.sub-title 
+	font-weight: 300 
+	font-size: 3.125vw
+.container-fluid 
+	max-width: 78.333vw
+//startn header style
+.header
+	padding-top: 2.448vw
+	background: url('../img/bg.jpg')
+	background-size: cover
+	background-position: center
+
+.logo 
+	padding-left: 5.885vw
+	img 
+		width: 12.917vw
+.header__content 
+	padding-top: 7vw
+	padding-bottom: 6vw
+	color: #fff
+.header__footer-text
+	font-size: 1.823vw
+	font-weight: 500
+	max-width: 58vw
+.header__footer
+	display: flex
+	justify-content: space-between
+	align-items: center
+	padding-top: 4vw
+
+//end header style
+
+//about 
+.about 
+	padding: 5.052vw 0
+	color: $purple
+	img 
+		width: 100%
+	p 
+		font-size: 1.563vw
+		font-weight: 500
+		line-height: 1.979vw
+	.button 
+		margin-top: 2.708vw
+.about__content 
+	height: 100% 
+	display: flex 
+	flex-direction: column 
+	justify-content: center
+.about-title
+	font-size: 2.344vw
+	font-weight: 700
+
+//start vine 
+.vine 
+	background: rgba($purple, 0.28)
+	padding-top: 3.281vw
+	padding-bottom: 4.063vw
+.vine__title
+	font-size: 2.292vw
+	color: #fff 
+	text-align: center 
+	font-weight: 500
+.vine__items
+	display: flex 
+	justify-content: space-between	
+	max-width: 70vw
+	margin: 0 auto
+.vine__item:first-child
+	img 
+		width: 6.979vw
+	.vine-item__text
+		left: 5vw
+.vine__item
+	margin-top: 4.271vw
+	width: 33.33%
+	position: relative
+	display: flex 
+	
+
+.vine-item__title
+	font-size: 5.938vw
+	color: $purple
+	position: absolute
+	font-weight: 700
+.vine-item__text
+	position: absolute
+	text-align: center
+	color: $purple
+	font-size: 1.875vw
+	bottom: 0
+.vine__item:nth-child(2)
+	display: flex 
+	justify-content: center
+	img 
+		width: 7.292vw
+
+	.vine-item__title
+		left: 50%
+		transform: translate(-50%)
+	.vine-item__text
+		left: 50%
+		transform: translate(-50%)
+.vine__item:nth-child(3)
+	display: flex 
+	justify-content: flex-end
+	.vine-item__title
+		left: 7vw
+	.vine-item__text
+		left: 9vw
+	img 
+		width: 5.885vw
+		
+
+@import "media"
+
+
+
