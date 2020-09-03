@@ -4,6 +4,8 @@
 body 
 	font-family: $museo
 	font-weight: 500
+	margin: 0 
+	padding: 0
 h1 
 	font-weight: 500
 	font-size: 5.990vw
@@ -51,6 +53,7 @@ a:hover
 	background: url('../img/bg.jpg')
 	background-size: cover
 	background-position: center
+	background-repeat: no-repeat
 
 .logo 
 	padding-left: 5.885vw
@@ -294,9 +297,11 @@ a:hover
 .table-left-title--last
 	margin-top: 3vw
 .table-footer-text
-	width: 61.302vw
+	width: 58.3vw
 	padding-top: 1.927vw
 	padding-bottom: 3.646vw
+	font-size: 0.833vw
+	font-family: 'Quicksand', sans-serif
 .table-col-tick:last-child 
 	border-right: none
 .table-footer-row
@@ -336,18 +341,18 @@ a:hover
 .slider-content
 	padding-left: 8.854vw
 .slider-logo-first img
-	width: 26.042vw
+	width: 15vw
 .slider-logo-second img
-	width: 16.771vw
+	width: 12vw
 .slider-logo-three img
-	width: 20.208vw
+	width: 15vw
 
 .slider-logo
-	height: 12vw
-	margin-bottom: 3vw
+	height: 8vw
+	margin-bottom: 2vw
 	img 
 .slider-logo-three
-	margin-bottom: 5vw
+	margin-bottom: 4vw
 		//max-height: 100%
 		//width: auto
 
@@ -398,8 +403,10 @@ a:hover
 //end slider
 
 .logos-section
+
 	.vine__title 
 		color: $purple
+		margin-bottom: 4.2vw
 	.container-fluid 
 		max-width: 90vw
 	a
@@ -408,7 +415,15 @@ a:hover
 		justify-content: center 
 		align-items: center
 	img 
-		width: 80%
+		height: 6vw
+		margin-bottom: 4.2vw
+	img.sm 
+		height: 4vw
+		margin-top: 1vw
+	a 
+		display: flex 
+		justify-content: center 
+		align-items: center
 .footer 
 	background: $purple
 	color: #fff	
@@ -478,7 +493,22 @@ form
 		font-family: 'Quicksand', sans-serif
 .form-row:last-child 
 	margin-bottom: 0
+.table-left-title
 
+	span 
+		position: relative 
+.new 
+	position: absolute 
+	top: 0 
+	left: 0 
+	transform: translateX(-100%) translateY(-25%)
+	font-size: 0.938vw
+	font-weight: 700 
+	color: $purple
+	text-transform: uppercase
+.two-line 
+	.new
+		transform: translateX(45%) translateY(-25%)
 @import "media"
 
 
