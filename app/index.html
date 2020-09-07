@@ -11,8 +11,22 @@
 
 	<link rel="stylesheet" href="css/style.min.css">
 	<link rel="stylesheet" href="css/slick.css">
-</head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KV9CMX9');</script>
+<!-- End Google Tag Manager -->
+
+
 <body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KV9CMX9"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 <!-- start header -->
 <header class="header">
@@ -367,9 +381,10 @@ per Booking Insite
 	</div>
 
 	<div class="table-column">
-		<div class="table-title">
+		<div class="table-title table-title--desctop">
 			Scegli il profilo più adatto alla tua cantina
 		</div>
+		
 		<div class="table">
 			<div class="tab-top">
 				<div class="tabs table__row">
@@ -948,7 +963,7 @@ per Booking Insite
 <section class="table-section table-section--mobile">
 <div class="container-fluid">
 	<div class="table-title">
-			Scegli il profilo più adatto alla tua cantina
+			Clicca sul profilo per vedere le differenze
 		</div>
 
 		<div class="tabs table__row">
@@ -2521,46 +2536,60 @@ Franciacorta
 			Registra la tua cantina, sarai richiamato entro 24 ore per l’eventuale inserimento della tua struttura.
 		</div>
 
-		<form action="">
-			<div class="form-row">
-				<span>Nome e cognome*</span>
-				<input type="text">
-			</div>
-
-			<div class="form-row">
-				<span>Società*</span>
-				<input type="text">
-			</div>
-
-			<div class="form-row">
-				<span>Email principale*</span>
-				<input type="text">
-			</div>
-
-			<div class="form-row">
-				<span>Telefono*</span>
-				<input type="text">
-			</div>
-
-			<div class="form-row">
-				<span></span>
-				<div class="form-row-wrapper">
-					<input type="checkbox" id="checkbox">
-				<label for="checkbox"> Dichiaro di aver letto e di accettare la presente informativa
-</label>
-				</div>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+		<form id="__vtigerWebForm" name="Inserimento Cantine" action="http://crm.cdbergamo.com/vtigercrm/modules/Webforms/capture.php" method="post" accept-charset="utf-8" enctype="multipart/form-data">
+			<input type="hidden" name="__vtrftk" value="sid:4a46ce788362e0d8ecb2bd31ccd7d5dbb5a23fe2,1599420009">
+			<input type="hidden" name="publicid" value="3311fa25acfb544fae018b0252f1ef03">
+			<input type="hidden" name="urlencodeenable" value="1">
+			<input type="hidden" name="name" value="Inserimento Cantine">
+			<table>
 				
-			</div>
-			<div class="form-row">
-				<span></span>
-				<div class="form-row-wrapper">
-					<button type="submit" class="button">
-					INVIA RICHIESTA
-				</button>
-				</div>
-				
-			</div>
-		</form>
+					
+							<div class="form-row">
+								<span><label for="">Cognome*</label></span>
+						
+							<input type="text" name="lastname" data-label="" value="" required="">
+							</div>
+					<div class="form-row">
+						<span><label>Società*</label></span>
+							
+								<input type="text" name="company" data-label="" value="" required="">
+					</div>
+								
+							
+							<div class="form-row">
+								<span><label>Email Principale*</label></span>
+							
+								<input type="email" name="email" data-label="" value="" required="">
+							</div>
+								<input type="hidden" name="cf_979" data-label="" value="0">
+							<div class="form-row">
+								<span></span>
+								<div class="form-row-wrapper">
+									<input type="checkbox" name="cf_979" data-label="" value="1" required="">
+								<label>Privacy Accettata*</label>
+								</div>
+								
+							
+								
+							</div>
+								
+								
+							
+								<input type="hidden" name="cf_1043" data-label="" value="0" required="">
+
+<div class="form-row">
+	<span></span>
+	<div class="form-row-wrapper">	
+	<input type="submit" class="button" value="INVIA RICHIESTA">
+</div>
+</div>
+								
+							</form>
+
+
+
+							<script  type="text/javascript">window.onload = function() { var N=navigator.appName, ua=navigator.userAgent, tem;var M=ua.match(/(opera|chrome|safari|firefox|msie)\/?\s*(\.?\d+(\.\d+)*)/i);if(M && (tem= ua.match(/version\/([\.\d]+)/i))!= null) M[2]= tem[1];M=M? [M[1], M[2]]: [N, navigator.appVersion, "-?"];var browserName = M[0];var form = document.getElementById("__vtigerWebForm"), inputs = form.elements; form.onsubmit = function() { var required = [], att, val; for (var i = 0; i < inputs.length; i++) { att = inputs[i].getAttribute("required"); val = inputs[i].value; type = inputs[i].type; if(type == "email") {if(val != "") {var elemLabel = inputs[i].getAttribute("label");var emailFilter = /^[_/a-zA-Z0-9]+([!"#$%&()*+,./:;<=>?\^_`{|}~-]?[a-zA-Z0-9/_/-])*@[a-zA-Z0-9]+([\_\-\.]?[a-zA-Z0-9]+)*\.([\-\_]?[a-zA-Z0-9])+(\.?[a-zA-Z0-9]+)?$/;var illegalChars= /[\(\)\<\>\,\;\:\"\[\]]/ ;if (!emailFilter.test(val)) {alert("For "+ elemLabel +" field please enter valid email address"); return false;} else if (val.match(illegalChars)) {alert(elemLabel +" field contains illegal characters");return false;}}}if (att != null) { if (val.replace(/^\s+|\s+$/g, "") == "") { required.push(inputs[i].getAttribute("label")); } } } if (required.length > 0) { alert("The following fields are required: " + required.join()); return false; } var numberTypeInputs = document.querySelectorAll("input[type=number]");for (var i = 0; i < numberTypeInputs.length; i++) { val = numberTypeInputs[i].value;var elemLabel = numberTypeInputs[i].getAttribute("label");if(val != "") {var intRegex = /^[+-]?\d+$/;if (!intRegex.test(val)) {alert("For "+ elemLabel +" field please enter valid number"); return false;}}}var dateTypeInputs = document.querySelectorAll("input[type=date]");for (var i = 0; i < dateTypeInputs.length; i++) {dateVal = dateTypeInputs[i].value;var elemLabel = dateTypeInputs[i].getAttribute("label");if(dateVal != "") {var dateRegex = /^[1-9][0-9]{3}-(0[1-9]|1[0-2]|[1-9]{1})-(0[1-9]|[1-2][0-9]|3[0-1]|[1-9]{1})$/;if(!dateRegex.test(dateVal)) {alert("For "+ elemLabel +" field please enter valid date in required format"); return false;}}}var inputElems = document.getElementsByTagName("input");var totalFileSize = 0;for(var i = 0; i < inputElems.length; i++) {if(inputElems[i].type.toLowerCase() === "file") {var file = inputElems[i].files[0];if(typeof file !== "undefined") {var totalFileSize = totalFileSize + file.size;}}}if(totalFileSize > 52428800) {alert("Maximum allowed file size including all files is 50MB.");return false;}}; }</script>
 	</div>
 	
 </footer>
